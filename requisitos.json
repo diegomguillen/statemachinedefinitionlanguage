@@ -1,0 +1,10 @@
+[
+  {
+    "title": "NUEVO REQUISITO X",
+    "content": "NUEVO REQUISITO x\n// Escribe aquí tus notaciones.\nestado_inicial ⇒ [accion.objeto(evento)] ⇒ estado_final\nestado_final⇒[accion.objeto(evento)]⇒estado_inicial\nestado_inicial⇒[accion.objeto(evento_b)]⇒estado_a"
+  },
+  {
+    "title": "RF-XXX-YYY: REQUISITO PRUEBA",
+    "content": "RF-XXX-YYY: REQUISITO PRUEBA\n// Define aquí las reglas para el nuevo requisito.\ncerrada ⇒ [motor.abrir((mando.pulsar, sensor.vehiculo_detectado))] ⇒ abriendo\nabriendo ⇒ [!sistema.parada_total(boton_panico.pulsado)] ⇒ parada_emergencia\nabriendo ⇒ [temporizador.iniciar(motor.fin_carrera_apertura)] ⇒ abierta\nabierta ⇒ [motor.cerrar(temporizador.tiempo_agotado){fotocelula.haz_libre}] ⇒ cerrando\ncerrando ⇒ [!motor.abrir(alarma_incendios.activada)] ⇒ abriendo\ncerrando ⇒ [!sistema.parada_total(boton_panico.pulsado)] ⇒ parada_emergencia\ncerrando ⇒ [!motor.invertir_marcha(fotocelula.haz_interrumpido)] ⇒ abriendo\ncerrando ⇒ [motor.detener(motor.fin_carrera_cierre)] ⇒ cerrada\nparada_emergencia ⇒ [sistema.reactivar((boton.reset) + (fotocelula.haz_libre))] ⇒ cerrada\n"
+  }
+]
