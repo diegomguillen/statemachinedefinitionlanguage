@@ -82,7 +82,7 @@ El prefijo `@` marca una guarda como **atómica**, garantizando que la operació
 
       * **Ejemplo**: Evitar que dos coches ocupen la última plaza VIP disponible. El modificador `@` garantiza que la comprobación de plazas libres y la asignación de la plaza sean una operación indivisible. El primer proceso que accede "bloquea" el recurso, evitando que el segundo lo utilice.
         ```plaintext
-        Barrera_Cerrada ⇒ [motor.abrir(sensor.ticket_vip_leido){@servidor_parking.plazas_vip > 0}] ⇒ Barrera_Abriendo
+        barrera_cerrada ⇒ [motor.abrir(sensor.ticket_vip_leido){@servidor_parking.plazas_vip > 0}] ⇒ barrera_abriendo
         ```
 
 -----
