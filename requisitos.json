@@ -1,7 +1,7 @@
 [
   {
-    "title": "NUEVO REQUISITO X",
-    "content": "NUEVO REQUISITO x\n// Escribe aquí tus notaciones.\nestado_inicial ⇒ [accion.objeto(evento)] ⇒ estado_final\nestado_final⇒[accion.objeto(evento)]⇒estado_inicial\nestado_inicial⇒[accion.objeto(evento_b)]⇒estado_a"
+    "title": "RF-XXX-YYY RESOLUCION PRIORIDAD",
+    "content": "RF-XXX-YYY RESOLUCION PRIORIDAD\n//Análisis: Si la alarma de incendios y el botón de pánico se activan a la vez, solo se //ejecutará la regla 1 por estar definida primero en la lista. Las demás reglas no llegarán a /evaluarse.\n//prioridad 1, máxima\ncerrando ⇒ [!motor.abrir(alarma_incendios.activada)] ⇒ abriendo  \n//prioridad 2\ncerrando ⇒ [!sistema.parada_total(boton_panico.pulsado)] ⇒ parada_emergencia\n// prioridad 3\ncerrando ⇒ [!motor.invertir_marcha(fotocelula.haz_interrumpido)] ⇒ abriendo \n\n"
   },
   {
     "title": "RF-XXX-YYY: REQUISITO PRUEBA",
