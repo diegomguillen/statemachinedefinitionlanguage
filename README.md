@@ -161,4 +161,5 @@ cerrando ⇒ [motor.detener(motor.fin_carrera_cierre)] ⇒ cerrada
 parada_emergencia ⇒ [sistema.reactivar((boton.reset) + (fotocelula.haz_libre))] ⇒ cerrada
 ```
 
-### Diagrama de Estados
+### Diagrama ejemplo resultante
+![](./LDME.png)
