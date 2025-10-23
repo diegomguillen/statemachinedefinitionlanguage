@@ -1,7 +1,3 @@
-Claro, aquí tienes el contenido del documento convertido a un formato Markdown ideal para un `README.md` en GitHub.
-
------
-
 # Lenguaje de Definición de Máquinas de Estado (LDME)
 
 *Versión: 1.0 (14 de octubre de 2025)*
